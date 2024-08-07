@@ -286,7 +286,7 @@ h2 {
     background-color: var(--color-surf);
     border: none;
     cursor: pointer;
-    color: white;
+    color:black;
 }
 .fake-button3{
     outline: none;
@@ -298,18 +298,18 @@ h2 {
     background-color: var(--color-surf);
     border: none;
     cursor: pointer;
-    color: white;
+    color: black;
 }
 .fake-button1:hover{
-
+    background-color: var(--color-leaves);
 }
 .fake-button2:hover{
-    background-color: var(--color-killarney);
+    background-color: var(--color-leaves);
     color: #fff;
     transition: 0.3s ease-in-out;
 }
 .fake-button3:hover{
-    background-color: var(--color-killarney);
+    background-color: var(--color-leaves);
     color: #fff;
     transition: 0.3s ease-in-out;
 }
