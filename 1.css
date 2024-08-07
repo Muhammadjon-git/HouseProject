@@ -306,7 +306,7 @@ h2 {
 .fake-button2:hover{
     background-color: var(--color-leaves);
     color: #fff;
-    transition: 0.3s ease-in-out;
+    trangitsition: 0.3s ease-in-out;
 }
 .fake-button3:hover{
     background-color: var(--color-leaves);
