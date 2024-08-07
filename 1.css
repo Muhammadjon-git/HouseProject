@@ -209,9 +209,7 @@ h1 {
     transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.btn--stroke {
-    border: 1px solid currentColor;
-  }
+
   
   .btn--stroke:focus {
     background-color:#d4e8d9 ;
@@ -329,4 +327,47 @@ h2 {
 article{
     display: block;
     unicode-bidi: isolate;
+}
+.product-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+.product-author {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--color-mantle);
+}
+.product-title {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: var(--color-shark);
+}
+.product-props {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--color-shark);
+}
+.product-price {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--color-leaves);
+}
+.product__btn {
+    margin-top: auto;
+    width: 100%;
+}
+.btn-reset {
+    background-color: transparent;
+    cursor: pointer;
 }
