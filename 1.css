@@ -313,3 +313,20 @@ h2 {
     color: #fff;
     transition: 0.3s ease-in-out;
 }
+.catalog-list {
+    row-gap: var(--gap);
+}
+.catalog-item{
+    grid-column: 4 span;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+    background-color: var(--color-gin);
+}
+article{
+    display: block;
+    unicode-bidi: isolate;
+}
