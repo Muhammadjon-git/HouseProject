@@ -404,3 +404,38 @@ article{
     background-size: 80px 80px;
     background-repeat: no-repeat;
 }
+.newbies-content{
+    position: relative;
+    z-index: 5;
+    margin-bottom: 60px;
+    max-width: 540px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+}
+.newbies-descr{
+    margin: 0;
+    margin-bottom: 20px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.newbies-link {
+    position: relative;
+    z-index: 5;
+    min-width: 257px;
+    border: var(--color-sand);
+}
+.newbies-link:hover{
+    background-color: var(--color-corn);
+}
+
+.btn--fill {
+    color: var(--color-shark);
+    background-color: var(--color-sand);
+}
